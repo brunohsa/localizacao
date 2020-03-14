@@ -1,20 +1,13 @@
-package br.com.unip.localizacao.webservice.model.response
+package br.com.unip.localizacao.webservice.model.response.erro
 
 import com.fasterxml.jackson.annotation.JsonInclude
 import com.fasterxml.jackson.annotation.JsonProperty
 
 @JsonInclude(JsonInclude.Include.NON_NULL)
-class Response {
-
-    @JsonProperty("payload")
-    var payload: Any? = null
+class ResponseError {
 
     @JsonProperty("erro")
     var erro: Erro? = null
-
-    constructor(payload: Any?) {
-        this.payload = payload
-    }
 
     constructor(erro: Erro?) {
         this.erro = erro

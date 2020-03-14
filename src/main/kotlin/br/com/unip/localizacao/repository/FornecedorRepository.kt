@@ -26,10 +26,11 @@ class FornecedorRepository(val em: EntityManager) : IFornecedorRepository {
 
         val sql = """
             SELECT new ${FornecedorEncontradoDTO::class.qualifiedName}(c.uuid, pj.nome, $distanciaSql)
-            FROM PessoaFisica pj
+            FROM PessoaJuridica pj
             JOIN pj.endereco e
             JOIN pj.cadastro c
-            WHERE $distanciaSql < :distanciaMaximaBusca"""
+            WHERE $distanciaSql < :distanciaMaximaBusca
+            ORDER BY $distanciaSql asc"""
 
         val query = em.createQuery(sql, FornecedorEncontradoDTO::class.java)
         query.setParameter("lat", coordenadas.latitude)

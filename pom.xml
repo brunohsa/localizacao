@@ -64,6 +64,7 @@
             <artifactId>spring-boot-starter-security</artifactId>
             <version>${spring-boot-version}</version>
         </dependency>
+
         <dependency>
             <groupId>br.com.unip.cardapio</groupId>
             <artifactId>autenticacao-lib</artifactId>

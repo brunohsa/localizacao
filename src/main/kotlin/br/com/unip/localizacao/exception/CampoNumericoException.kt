@@ -2,11 +2,9 @@ package br.com.unip.localizacao.exception
 
 import org.springframework.http.HttpStatus
 
-class CampoNumericoException : CadastroException {
+class CampoNumericoException : LocalizacaoBaseException {
 
-    constructor() : super(ECodigoErro.CAD007, HttpStatus.BAD_REQUEST)
+    constructor() : this(ECodigoErro.CAMPO_DEVE_SER_NUMERICO)
 
-    constructor(mensagem: String) : this(mensagem, ECodigoErro.CAD007)
-
-    constructor(mensagem: String, codigoErro: ECodigoErro) : super(codigoErro, HttpStatus.BAD_REQUEST, mensagem)
+    constructor(codigoErro: ECodigoErro) : super(codigoErro, HttpStatus.BAD_REQUEST)
 }

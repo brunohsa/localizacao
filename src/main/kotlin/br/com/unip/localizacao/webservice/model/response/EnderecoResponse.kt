@@ -5,8 +5,7 @@ import com.fasterxml.jackson.annotation.JsonProperty
 
 @JsonIgnoreProperties(ignoreUnknown = true)
 class EnderecoResponse(@JsonProperty("cep") val cep: String,
+                       @JsonProperty("logradouro") val logradouro: String,
                        @JsonProperty("bairro") val bairro: String,
                        @JsonProperty("cidade") val cidade: String,
-                       @JsonProperty("estado") val estado: String,
-                       @JsonProperty("latitude") val latitude: Double,
-                       @JsonProperty("longitude") val longitude: Double)
+                       @JsonProperty("estado") val estado: String)
