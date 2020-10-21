@@ -2,80 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cdac5aeb-bb28-4708-8734-97bc1178de3d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/br/com/unip/localizacao/dto/maps/ResultadoBuscaGoogleMapsDTO.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/br/com/unip/localizacao/webservice/model/response/erro/Erro.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cadastro.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/localizacao.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/br/com/unip/localizacao/dto/ETiposEnderecoGoogleMaps.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/br/com/unip/localizacao/dto/EnderecoDTO.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/br/com/unip/localizacao/dto/EnderecoDTO.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/br/com/unip/localizacao/dto/maps/ComponenteEnderecoGoogleMapsDTO.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/br/com/unip/localizacao/dto/maps/EnderecoGoogleMapsDTO.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/br/com/unip/localizacao/dto/maps/ResultadoGoogleMapsDTO.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/br/com/unip/localizacao/dto/maps/BuscaGoogleMapsDTO.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/br/com/unip/localizacao/exception/CadastroException.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/br/com/unip/localizacao/exception/LocalizacaoBaseException.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/br/com/unip/localizacao/exception/CampoNumericoException.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/br/com/unip/localizacao/exception/CampoNumericoException.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/br/com/unip/localizacao/exception/CampoObrigatorioException.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/br/com/unip/localizacao/exception/CampoObrigatorioException.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/br/com/unip/localizacao/exception/DataPassadaException.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/br/com/unip/localizacao/exception/ECodigoErro.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/br/com/unip/localizacao/exception/ECodigoErro.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/br/com/unip/localizacao/exception/HandlerException.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/br/com/unip/localizacao/exception/HandlerException.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/br/com/unip/localizacao/exception/ParametroInvalidoException.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/br/com/unip/localizacao/exception/ParametroInvalidoException.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/br/com/unip/localizacao/repository/FornecedorRepository.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/br/com/unip/localizacao/repository/FornecedorRepository.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/br/com/unip/localizacao/repository/GoogleMapsRepository.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/br/com/unip/localizacao/repository/GoogleMapsRepository.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/br/com/unip/localizacao/repository/IGoogleMapsRepository.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/br/com/unip/localizacao/repository/IGoogleMapsRepository.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/br/com/unip/localizacao/repository/RestRepository.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/br/com/unip/localizacao/repository/RestRepository.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/br/com/unip/localizacao/repository/entity/mongo/Endereco.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/br/com/unip/localizacao/repository/entity/mongo/Endereco.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/br/com/unip/localizacao/repository/entity/mysql/PessoaFisica.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/br/com/unip/localizacao/repository/entity/mysql/PessoaJuridica.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/br/com/unip/localizacao/security/SecurityConfiguration.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/br/com/unip/localizacao/security/filter/CorsFilterCustom.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/br/com/unip/localizacao/security/filter/JWTAuthenticationFilter.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/br/com/unip/localizacao/service/EnderecoService.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/br/com/unip/localizacao/service/EnderecoService.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/br/com/unip/localizacao/service/IEnderecoService.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/br/com/unip/localizacao/service/IEnderecoService.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/br/com/unip/localizacao/security/SecurityConfiguration.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/br/com/unip/localizacao/security/SecurityConfiguration.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/br/com/unip/localizacao/security/filter/AuthenticationFilter.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/br/com/unip/localizacao/security/filter/AuthenticationFilter.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/kotlin/br/com/unip/localizacao/webservice/EnderecoWS.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/br/com/unip/localizacao/webservice/EnderecoWS.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/kotlin/br/com/unip/localizacao/webservice/FornecedorWS.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/br/com/unip/localizacao/webservice/FornecedorWS.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/br/com/unip/localizacao/webservice/model/response/EnderecoResponse.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/br/com/unip/localizacao/webservice/model/response/EnderecoResponse.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/br/com/unip/localizacao/webservice/model/response/Erro.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/br/com/unip/localizacao/webservice/model/response/Response.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/br/com/unip/localizacao/webservice/model/response/erro/ResponseError.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/cadastro.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/localizacao.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/META-INF/localizacao.kotlin_module" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/br/com/unip/localizacao/dto/ETiposEnderecoGoogleMaps.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/br/com/unip/localizacao/dto/EnderecoDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/br/com/unip/localizacao/dto/EnderecoDTO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/br/com/unip/localizacao/dto/FornecedorEncontradoDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/br/com/unip/localizacao/dto/FornecedorEncontradoDTO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/br/com/unip/localizacao/dto/maps/ComponenteEnderecoGoogleMapsDTO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/br/com/unip/localizacao/dto/maps/EnderecoGoogleMapsDTO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/br/com/unip/localizacao/dto/maps/ResultadoGoogleMapsDTO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/br/com/unip/localizacao/exception/CadastroException.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/br/com/unip/localizacao/exception/CampoNumericoException.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/br/com/unip/localizacao/exception/CampoNumericoException.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/br/com/unip/localizacao/exception/CampoObrigatorioException.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/br/com/unip/localizacao/exception/CampoObrigatorioException.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/br/com/unip/localizacao/exception/DataPassadaException.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/br/com/unip/localizacao/exception/ECodigoErro.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/br/com/unip/localizacao/exception/ECodigoErro.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/br/com/unip/localizacao/exception/HandlerException.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/br/com/unip/localizacao/exception/HandlerException.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/br/com/unip/localizacao/exception/ParametroInvalidoException.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/br/com/unip/localizacao/exception/ParametroInvalidoException.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/br/com/unip/localizacao/repository/FornecedorRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/br/com/unip/localizacao/repository/FornecedorRepository.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/br/com/unip/localizacao/repository/GoogleMapsRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/br/com/unip/localizacao/repository/GoogleMapsRepository.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/br/com/unip/localizacao/repository/IFornecedorRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/br/com/unip/localizacao/repository/IFornecedorRepository.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/br/com/unip/localizacao/repository/IGoogleMapsRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/br/com/unip/localizacao/repository/IGoogleMapsRepository.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/br/com/unip/localizacao/repository/RestRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/br/com/unip/localizacao/repository/RestRepository.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/br/com/unip/localizacao/repository/entity/mongo/Endereco.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/br/com/unip/localizacao/repository/entity/mongo/Endereco.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/br/com/unip/localizacao/repository/entity/mysql/Cadastro.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/br/com/unip/localizacao/repository/entity/mysql/Cadastro.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/br/com/unip/localizacao/repository/entity/mysql/Pessoa.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/br/com/unip/localizacao/repository/entity/mysql/Pessoa.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/br/com/unip/localizacao/repository/entity/mysql/PessoaFisica.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/br/com/unip/localizacao/security/SecurityConfiguration.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/br/com/unip/localizacao/security/SecurityConfiguration.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/br/com/unip/localizacao/security/filter/JWTAuthenticationFilter.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/br/com/unip/localizacao/service/EnderecoService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/br/com/unip/localizacao/service/EnderecoService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/br/com/unip/localizacao/service/FornecedorService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/br/com/unip/localizacao/service/FornecedorService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/br/com/unip/localizacao/service/IEnderecoService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/br/com/unip/localizacao/service/IEnderecoService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/br/com/unip/localizacao/service/IFornecedorService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/br/com/unip/localizacao/service/IFornecedorService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/br/com/unip/localizacao/security/filter/AuthenticationFilter.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/br/com/unip/localizacao/security/filter/AuthenticationFilter.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/br/com/unip/localizacao/webservice/EnderecoWS.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/br/com/unip/localizacao/webservice/EnderecoWS.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/br/com/unip/localizacao/webservice/FornecedorWS.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/br/com/unip/localizacao/webservice/FornecedorWS.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/br/com/unip/localizacao/webservice/model/response/EnderecoResponse.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/br/com/unip/localizacao/webservice/model/response/EnderecoResponse.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/br/com/unip/localizacao/webservice/model/response/Erro.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/br/com/unip/localizacao/webservice/model/response/FornecedorEncontradoResponse.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/br/com/unip/localizacao/webservice/model/response/FornecedorEncontradoResponse.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/br/com/unip/localizacao/webservice/model/response/Response.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/localizacao-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/localizacao-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -87,19 +26,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
+        <entry file="file://$PROJECT_DIR$/src/main/kotlin/br/com/unip/localizacao/security/SecurityConfiguration.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="459">
-              <caret line="27" selection-start-line="27" selection-end-line="27" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/kotlin/br/com/unip/localizacao/security/Permissoes.kt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="32" selection-start-line="4" selection-start-column="14" selection-end-line="4" selection-end-column="32" />
+            <state relative-caret-position="187">
+              <caret line="20" column="58" lean-forward="true" selection-start-line="20" selection-start-column="58" selection-end-line="20" selection-end-column="58" />
             </state>
           </provider>
         </entry>
@@ -107,8 +37,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/kotlin/br/com/unip/localizacao/webservice/EnderecoWS.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="20" column="6" lean-forward="true" selection-start-line="20" selection-start-column="6" selection-end-line="20" selection-end-column="6" />
+            <state relative-caret-position="153">
+              <caret line="19" column="6" selection-start-line="19" selection-start-column="6" selection-end-line="19" selection-end-column="6" />
             </state>
           </provider>
         </entry>
@@ -116,29 +46,20 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/kotlin/br/com/unip/localizacao/webservice/FornecedorWS.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="19" column="32" selection-start-line="19" selection-start-column="32" selection-end-line="19" selection-end-column="32" />
+            <state relative-caret-position="307">
+              <caret line="20" selection-start-line="20" selection-end-line="20" />
               <folding>
-                <element signature="e#44#712#0" expanded="true" />
+                <element signature="e#44#568#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/kotlin/br/com/unip/localizacao/service/FornecedorService.kt">
+        <entry file="file://$PROJECT_DIR$/src/main/kotlin/br/com/unip/localizacao/exception/HandlerException.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="11" column="40" selection-start-line="11" selection-start-column="40" selection-end-line="11" selection-end-column="40" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/kotlin/br/com/unip/localizacao/repository/FornecedorRepository.kt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="24" column="17" lean-forward="true" selection-start-line="24" selection-start-column="17" selection-end-line="24" selection-end-column="17" />
+            <state relative-caret-position="187">
+              <caret line="26" column="31" selection-start-line="26" selection-start-column="30" selection-end-line="26" selection-end-column="31" />
             </state>
           </provider>
         </entry>
@@ -148,6 +69,7 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>distancia.maxima.busca</find>
+      <find>microservice.autenticacao.url</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -166,8 +88,11 @@
         <option value="$PROJECT_DIR$/src/main/kotlin/br/com/unip/localizacao/webservice/model/response/erro/EMicroservice.kt" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/kotlin/br/com/unip/localizacao/security/Permissoes.kt" />
+        <option value="$PROJECT_DIR$/src/main/kotlin/br/com/unip/localizacao/security/filter/AuthenticationFilter.kt" />
+        <option value="$PROJECT_DIR$/src/main/resources/application.properties" />
         <option value="$PROJECT_DIR$/src/main/kotlin/br/com/unip/localizacao/webservice/EnderecoWS.kt" />
         <option value="$PROJECT_DIR$/src/main/kotlin/br/com/unip/localizacao/webservice/FornecedorWS.kt" />
+        <option value="$PROJECT_DIR$/src/main/kotlin/br/com/unip/localizacao/security/SecurityConfiguration.kt" />
       </list>
     </option>
   </component>
@@ -181,7 +106,7 @@
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="43" />
     <option name="y" value="25" />
-    <option name="width" value="1323" />
+    <option name="width" value="662" />
     <option name="height" value="743" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -192,6 +117,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -291,12 +218,10 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1583525567064" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1603296965156" />
   </component>
   <component name="RecentsManager">
     <key name="MoveKotlinTopLevelDeclarationsDialog.RECENTS_KEY">
@@ -361,20 +286,21 @@
       <window_info id="Capture Tool" order="3" />
       <window_info id="Favorites" order="4" side_tool="true" />
       <window_info id="Image Layers" order="5" />
-      <window_info active="true" content_ui="combo" id="Project" order="6" visible="true" weight="0.23414253" />
+      <window_info content_ui="combo" id="Project" order="6" weight="0.2458888" />
       <window_info id="Structure" order="7" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="0" weight="0.38377535" />
-      <window_info anchor="bottom" id="Version Control" order="1" />
+      <window_info anchor="bottom" id="Version Control" order="1" weight="0.32899022" />
       <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="3" weight="0.3297587" />
+      <window_info anchor="bottom" id="Messages" order="3" weight="0.32899022" />
       <window_info anchor="bottom" id="Message" order="4" />
       <window_info anchor="bottom" id="DB Execution Console" order="5" />
       <window_info anchor="bottom" id="Find" order="6" weight="0.32917318" />
       <window_info anchor="bottom" id="Run" order="7" />
-      <window_info anchor="bottom" id="Debug" order="8" weight="0.3994638" />
+      <window_info anchor="bottom" id="Debug" order="8" weight="0.39739415" />
       <window_info anchor="bottom" id="Cvs" order="9" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="10" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="11" />
+      <window_info anchor="bottom" id="Docker" order="12" show_stripe_button="false" />
       <window_info anchor="right" id="Theme Preview" order="0" />
       <window_info anchor="right" id="Capture Analysis" order="1" />
       <window_info anchor="right" id="Palette&#9;" order="2" />
@@ -391,20 +317,21 @@
       <window_info id="Capture Tool" order="3" />
       <window_info id="Favorites" order="4" side_tool="true" />
       <window_info id="Image Layers" order="5" />
-      <window_info active="true" content_ui="combo" id="Project" order="6" visible="true" weight="0.23414253" />
+      <window_info active="true" content_ui="combo" id="Project" order="6" visible="true" weight="0.2458888" />
       <window_info id="Structure" order="7" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="0" weight="0.38377535" />
-      <window_info anchor="bottom" id="Version Control" order="1" />
+      <window_info anchor="bottom" id="Version Control" order="1" weight="0.32899022" />
       <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="3" weight="0.3297587" />
+      <window_info anchor="bottom" id="Messages" order="3" weight="0.32899022" />
       <window_info anchor="bottom" id="Message" order="4" />
       <window_info anchor="bottom" id="DB Execution Console" order="5" />
       <window_info anchor="bottom" id="Find" order="6" weight="0.32917318" />
       <window_info anchor="bottom" id="Run" order="7" />
-      <window_info anchor="bottom" id="Debug" order="8" weight="0.3994638" />
+      <window_info anchor="bottom" id="Debug" order="8" visible="true" weight="0.3990228" />
       <window_info anchor="bottom" id="Cvs" order="9" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="10" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="11" />
+      <window_info anchor="bottom" id="Docker" order="12" show_stripe_button="false" />
       <window_info anchor="right" id="Theme Preview" order="0" />
       <window_info anchor="right" id="Capture Analysis" order="1" />
       <window_info anchor="right" id="Palette&#9;" order="2" />
@@ -415,8 +342,35 @@
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="7" weight="0.25" />
     </layout-to-restore>
   </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ORDER">
+      <list>
+        <option value="0" />
+        <option value="2" />
+        <option value="3" />
+        <option value="1" />
+      </list>
+    </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/src/main/kotlin/br/com/unip/localizacao/exception/HandlerException.kt</url>
+          <line>27</line>
+          <properties />
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
   <component name="debuggerHistoryManager">
     <expressions id="evaluateExpression">
+      <expression>
+        <expression-string>e</expression-string>
+        <language-id>kotlin</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
       <expression>
         <expression-string>Coordenadas(cep, coordenadasDTO.latitude, coordenadasDTO.longitude)</expression-string>
         <language-id>kotlin</language-id>
@@ -494,13 +448,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/kotlin/br/com/unip/localizacao/exception/HandlerException.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="816">
-          <caret line="63" column="1" selection-start-line="19" selection-end-line="63" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1360">
@@ -550,10 +497,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/kotlin/br/com/unip/localizacao/security/SecurityConfiguration.kt">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="22" column="52" selection-start-line="22" selection-start-column="52" selection-end-line="22" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/br/com/unip/localizacao/security/Permissoes.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
-          <caret line="15" column="6" selection-start-line="15" selection-start-column="6" selection-end-line="15" selection-end-column="6" />
+          <caret line="7" column="1" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
         </state>
       </provider>
     </entry>
@@ -564,40 +518,47 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="27" selection-start-line="27" selection-end-line="27" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/kotlin/br/com/unip/localizacao/repository/FornecedorRepository.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="340">
-          <caret line="24" column="17" lean-forward="true" selection-start-line="24" selection-start-column="17" selection-end-line="24" selection-end-column="17" />
+          <caret line="24" column="17" selection-start-line="24" selection-start-column="17" selection-end-line="24" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/kotlin/br/com/unip/localizacao/security/Permissoes.kt">
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/br/com/unip/localizacao/security/filter/AuthenticationFilter.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="32" selection-start-line="4" selection-start-column="14" selection-end-line="4" selection-end-column="32" />
+        <state relative-caret-position="119">
+          <caret line="31" column="66" selection-start-line="31" selection-start-column="37" selection-end-line="31" selection-end-column="66" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/kotlin/br/com/unip/localizacao/webservice/EnderecoWS.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="20" column="6" lean-forward="true" selection-start-line="20" selection-start-column="6" selection-end-line="20" selection-end-column="6" />
+        <state relative-caret-position="153">
+          <caret line="19" column="6" selection-start-line="19" selection-start-column="6" selection-end-line="19" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/br/com/unip/localizacao/security/SecurityConfiguration.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="20" column="58" lean-forward="true" selection-start-line="20" selection-start-column="58" selection-end-line="20" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/br/com/unip/localizacao/exception/HandlerException.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="26" column="31" selection-start-line="26" selection-start-column="30" selection-end-line="26" selection-end-column="31" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/kotlin/br/com/unip/localizacao/webservice/FornecedorWS.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="32" selection-start-line="19" selection-start-column="32" selection-end-line="19" selection-end-column="32" />
+        <state relative-caret-position="307">
+          <caret line="20" selection-start-line="20" selection-end-line="20" />
           <folding>
-            <element signature="e#44#712#0" expanded="true" />
+            <element signature="e#44#568#0" expanded="true" />
           </folding>
         </state>
       </provider>

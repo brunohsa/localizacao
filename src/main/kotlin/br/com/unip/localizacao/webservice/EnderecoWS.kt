@@ -17,14 +17,14 @@ import org.springframework.web.bind.annotation.RestController
 class EnderecoWS(val enderecoService: IEnderecoService) {
 
     @GetMapping(value = ["/{cep}/coordenadas"])
-    @PreAuthorize("hasAuthority('$BUSCAR_COORDENADAS')")
+    //@PreAuthorize("hasAuthority('$BUSCAR_COORDENADAS')")
     fun buscarCoordenadasPorCep(@PathVariable("cep") cep: String): ResponseEntity<CoordenadasResponse> {
         val dto = enderecoService.buscarCoordenadasPorCep(cep)
         return ResponseEntity.ok(CoordenadasResponse(dto.latitude, dto.longitude))
     }
 
     @GetMapping(value = ["/{cep}"])
-    @PreAuthorize("hasAuthority('$BUSCAR_ENDERECO_POR_CEP')")
+    //@PreAuthorize("hasAuthority('$BUSCAR_ENDERECO_POR_CEP')")
     fun buscarPorCep(@PathVariable("cep") cep: String): ResponseEntity<EnderecoResponse> {
         val dto = enderecoService.buscarPorCep(cep)
         val resp = EnderecoResponse(dto.cep, dto.logradouro, dto.bairro, dto.cidade, dto.estado)
