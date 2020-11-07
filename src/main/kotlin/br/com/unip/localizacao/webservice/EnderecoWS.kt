@@ -1,12 +1,9 @@
 package br.com.unip.localizacao.webservice
 
-import br.com.unip.localizacao.security.Permissoes.BUSCAR_COORDENADAS
-import br.com.unip.localizacao.security.Permissoes.BUSCAR_ENDERECO_POR_CEP
 import br.com.unip.localizacao.service.IEnderecoService
 import br.com.unip.localizacao.webservice.model.response.CoordenadasResponse
 import br.com.unip.localizacao.webservice.model.response.EnderecoResponse
 import org.springframework.http.ResponseEntity
-import org.springframework.security.access.prepost.PreAuthorize
 import org.springframework.web.bind.annotation.GetMapping
 import org.springframework.web.bind.annotation.PathVariable
 import org.springframework.web.bind.annotation.RequestMapping
