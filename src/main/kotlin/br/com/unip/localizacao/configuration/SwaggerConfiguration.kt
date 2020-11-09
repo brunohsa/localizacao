@@ -1,4 +1,4 @@
-package br.com.unip.cardapio.configuration
+package br.com.unip.localizacao.configuration
 
 import org.springframework.context.annotation.Bean
 import org.springframework.context.annotation.Configuration

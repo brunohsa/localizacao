@@ -18,7 +18,8 @@ import org.springframework.security.web.authentication.UsernamePasswordAuthentic
 class SecurityConfiguration(val messageSource: MessageSource, val env: Environment) : WebSecurityConfigurerAdapter() {
 
     override fun configure(web: WebSecurity) {
-        web.ignoring().antMatchers("/v1/enderecos/**",
+        web.ignoring().antMatchers(
+                "/v1/enderecos/**",
                 "/v1/fornecedores/**",
                 "/v1/estados/**",
                 "/swagger-ui.html",
