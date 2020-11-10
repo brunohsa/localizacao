@@ -110,6 +110,11 @@
     <build>
         <plugins>
             <plugin>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-maven-plugin</artifactId>
+            </plugin>
+
+            <plugin>
                 <artifactId>kotlin-maven-plugin</artifactId>
                 <groupId>org.jetbrains.kotlin</groupId>
                 <version>${kotlin.version}</version>
@@ -201,11 +206,6 @@
                 <version>3.5.1</version>
                 <configuration>
                     <changeLogFile>src/main/resources/db/${change.log.file}</changeLogFile>
-                    <driver>com.mysql.jdbc.Driver</driver>
-                    <url>${liquibase.datasource.url}</url>
-                    <username>${liquibase.datasource.username}</username>
-                    <password>${liquibase.datasource.password}</password>
-                    <promptOnNonLocalDatabase>false</promptOnNonLocalDatabase>
                 </configuration>
                 <dependencies>
                     <dependency>

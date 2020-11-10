@@ -7,7 +7,7 @@ services:
     networks:
       - autenticacao
     ports:
-      - "8081:8081"
+      - "8086:8086"
 
 networks:
   autenticacao:

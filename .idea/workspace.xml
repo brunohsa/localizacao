@@ -3,10 +3,17 @@
   <component name="ChangeListManager">
     <list default="true" id="cdac5aeb-bb28-4708-8734-97bc1178de3d" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+<<<<<<< Updated upstream
       <change beforePath="$PROJECT_DIR$/src/main/kotlin/br/com/unip/localizacao/configuration/SwaggerConfiguration.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/br/com/unip/localizacao/configuration/SwaggerConfiguration.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/kotlin/br/com/unip/localizacao/security/SecurityConfiguration.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/br/com/unip/localizacao/security/SecurityConfiguration.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/application-docker.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application-docker.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/br/com/unip/localizacao/security/SecurityConfiguration.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/br/com/unip/localizacao/security/SecurityConfiguration.class" afterDir="false" />
+=======
+      <change beforePath="$PROJECT_DIR$/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/localizacao.iml" beforeDir="false" afterPath="$PROJECT_DIR$/localizacao.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+>>>>>>> Stashed changes
       <change beforePath="$PROJECT_DIR$/target/localizacao-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/localizacao-1.0-SNAPSHOT.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterDir="false" />
     </list>
