@@ -1,5 +1,5 @@
 use carrinho
-db.estados.insertMany([
+db.estado.insertMany([
     { nome: "Acre", sigla: "AC" },
     { nome: "Alagoas", sigla: "AL" },
     { nome: "Amapá", sigla: "AP" },
