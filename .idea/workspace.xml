@@ -2,28 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="62957da6-6f97-4837-957e-7592a152d7fa" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/br/com/unip/localizacao/repository/entity/mysql/EDiaSemana.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/br/com/unip/localizacao/repository/entity/mysql/HorarioDiferenciado.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/br/com/unip/localizacao/repository/entity/mysql/HorarioFuncionamento.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/br/com/unip/localizacao/dto/FornecedorEncontradoDTO.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/br/com/unip/localizacao/dto/FornecedorEncontradoDTO.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/br/com/unip/localizacao/repository/FornecedorRepository.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/br/com/unip/localizacao/repository/FornecedorRepository.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/br/com/unip/localizacao/repository/HorarioFuncionamentoRepository.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/br/com/unip/localizacao/repository/HorarioFuncionamentoRepository.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/br/com/unip/localizacao/repository/IFornecedorRepository.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/br/com/unip/localizacao/repository/IFornecedorRepository.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/kotlin/br/com/unip/localizacao/service/FornecedorService.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/br/com/unip/localizacao/service/FornecedorService.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/br/com/unip/localizacao/webservice/EnderecoWS.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/br/com/unip/localizacao/webservice/EnderecoWS.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/br/com/unip/localizacao/service/IFornecedorService.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/br/com/unip/localizacao/service/IFornecedorService.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/kotlin/br/com/unip/localizacao/webservice/FornecedorWS.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/br/com/unip/localizacao/webservice/FornecedorWS.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/br/com/unip/localizacao/webservice/model/response/FornecedorEncontradoResponse.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/br/com/unip/localizacao/webservice/model/response/FornecedorEncontradoResponse.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/mongodb/estados.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mongodb/estados.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/br/com/unip/cardapio/configuration/SwaggerConfiguration.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/br/com/unip/localizacao/dto/FornecedorEncontradoDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/br/com/unip/localizacao/dto/FornecedorEncontradoDTO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/br/com/unip/localizacao/security/SecurityConfiguration.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/br/com/unip/localizacao/security/SecurityConfiguration.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/br/com/unip/localizacao/repository/FornecedorRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/br/com/unip/localizacao/repository/FornecedorRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/br/com/unip/localizacao/repository/HorarioFuncionamentoRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/br/com/unip/localizacao/repository/HorarioFuncionamentoRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/br/com/unip/localizacao/repository/IFornecedorRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/br/com/unip/localizacao/repository/IFornecedorRepository.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/br/com/unip/localizacao/service/FornecedorService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/br/com/unip/localizacao/service/FornecedorService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/br/com/unip/localizacao/webservice/EnderecoWS.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/br/com/unip/localizacao/webservice/EnderecoWS.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/br/com/unip/localizacao/service/IFornecedorService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/br/com/unip/localizacao/service/IFornecedorService.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/br/com/unip/localizacao/webservice/FornecedorWS.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/br/com/unip/localizacao/webservice/FornecedorWS.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/br/com/unip/localizacao/webservice/model/response/FornecedorEncontradoResponse.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/br/com/unip/localizacao/webservice/model/response/FornecedorEncontradoResponse.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/mongodb/estados.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/mongodb/estados.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/localizacao-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/localizacao-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/localizacao-1.0-SNAPSHOT.jar.original" beforeDir="false" afterPath="$PROJECT_DIR$/target/localizacao-1.0-SNAPSHOT.jar.original" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />

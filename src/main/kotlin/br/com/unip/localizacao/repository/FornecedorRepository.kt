@@ -39,4 +39,31 @@ class FornecedorRepository(val em: EntityManager) : IFornecedorRepository {
 
         return query.resultList
     }
+
+    override fun buscarCadastrosUUID(coordenadas: CoordenadasDTO): List<String> {
+        val distanciaSql = """
+             (6371 * acos(
+                 cos( radians(:lat) )
+                 * cos( radians( e.latitude ) )
+                 * cos( radians( e.longitude ) - radians(:long) )
+                 + sin( radians(:lat) )
+                 * sin( radians( e.latitude ) ) 
+                 )
+             )"""
+
+        val sql = """
+            SELECT c.uuid
+            FROM PessoaJuridica pj
+            JOIN pj.endereco e
+            JOIN pj.cadastro c
+            WHERE $distanciaSql < :distanciaMaximaBusca
+            ORDER BY $distanciaSql asc"""
+
+        val query = em.createQuery(sql, String::class.java)
+        query.setParameter("lat", coordenadas.latitude)
+        query.setParameter("long", coordenadas.longitude)
+        query.setParameter("distanciaMaximaBusca", DISTANCIA_MAXIMA_BUSCA)
+
+        return query.resultList
+    }
 }

@@ -32,5 +32,16 @@ class FornecedorWS(val fornecedorService: IFornecedorService) {
         return ResponseEntity.ok(response)
     }
 
+    @ApiImplicitParams(ApiImplicitParam(name = "token", value = "Token", required = true, paramType = "header"))
+    @GetMapping(value = ["latitude/{lat}/longitude/{long}/cadastros-uuid"], produces = [MediaType.APPLICATION_JSON_VALUE])
+    //@PreAuthorize("hasAuthority('${BUSCAR_LOJAS_POR_PROXIMIDADE}')")
+    fun buscarCadostrosUUID(@PathVariable("lat") lat: Double,
+                  @PathVariable("long") long: Double): ResponseEntity<List<String>> {
+        val coordenadas = CoordenadasDTO(lat, long)
+        val forns = fornecedorService.buscarCadostrosUUID(coordenadas)
+
+        return ResponseEntity.ok(forns)
+    }
+
     private fun FuncionamentoDTO.toResponse() = FuncionamentoResponse(this.abertura, this.fechamento, this.aberto)
 }

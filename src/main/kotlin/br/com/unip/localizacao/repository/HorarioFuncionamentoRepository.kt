@@ -19,17 +19,26 @@ class HorarioFuncionamentoRepository(val em: EntityManager) : IHorarioFuncioname
     override fun buscarFuncionamentoHoje(cadastroUUID: String): FuncionamentoDTO {
         val hoje = LocalDate.now();
 
+        var abertura = "00:00"
+        var fechamento = "00:00"
+        var aberto = false
+
         val horarioDiferenciado = this.buscarHorarioDiferenciadoPorDia(cadastroUUID, hoje)
         if (horarioDiferenciado != null) {
-            val aberto = this.getEstabelecimentoAberto(horarioDiferenciado.abertura!!, horarioDiferenciado.fechamento!!)
-            return FuncionamentoDTO(horarioDiferenciado.abertura!!, horarioDiferenciado.fechamento!!, aberto)
+            aberto = this.getEstabelecimentoAberto(horarioDiferenciado.abertura!!, horarioDiferenciado.fechamento!!)
+            abertura = horarioDiferenciado.abertura!!
+            fechamento = horarioDiferenciado.fechamento!!
         }
-        val funcionamento = buscarHorarioFuncionamentoPorData(cadastroUUID, hoje)!!
-        var aberto = !funcionamento.fechado
-        if (aberto) {
-            aberto = this.getEstabelecimentoAberto(funcionamento.abertura!!, funcionamento.fechamento!!)
+        val funcionamento = buscarHorarioFuncionamentoPorData(cadastroUUID, hoje)
+        if (funcionamento != null) {
+            aberto = !funcionamento.fechado
+            if (aberto) {
+                aberto = this.getEstabelecimentoAberto(funcionamento.abertura!!, funcionamento.fechamento!!)
+                abertura = funcionamento.abertura!!
+                fechamento = funcionamento.fechamento!!
+            }
         }
-        return FuncionamentoDTO(funcionamento.abertura, funcionamento.fechamento, aberto)
+        return FuncionamentoDTO(abertura, fechamento, aberto)
     }
 
     private fun buscarHorarioDiferenciadoPorDia(cadastroUUID: String, data: LocalDate): HorarioDiferenciado? {

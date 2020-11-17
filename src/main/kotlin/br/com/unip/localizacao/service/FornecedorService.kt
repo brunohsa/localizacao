@@ -18,6 +18,10 @@ class FornecedorService(val fornecedorRepository: IFornecedorRepository,
         return fornecedores
     }
 
+    override fun buscarCadostrosUUID(coordenadas: CoordenadasDTO): List<String> {
+        return fornecedorRepository.buscarCadastrosUUID(coordenadas)
+    }
+
     private fun getHorarioDeFuncionamento(cadastroUUID: String): FuncionamentoDTO {
         return funcionamentoRepository.buscarFuncionamentoHoje(cadastroUUID)
     }

@@ -6,4 +6,6 @@ import br.com.unip.localizacao.dto.FornecedorEncontradoDTO
 interface IFornecedorService {
 
     fun buscar(coordenadas: CoordenadasDTO) : List<FornecedorEncontradoDTO>
+
+    fun buscarCadostrosUUID(coordenadas: CoordenadasDTO): List<String>
 }
