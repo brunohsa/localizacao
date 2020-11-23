@@ -3,14 +3,13 @@ package br.com.unip.localizacao.repository
 import com.fasterxml.jackson.databind.ObjectMapper
 import org.springframework.http.HttpEntity
 import org.springframework.http.HttpHeaders
+import org.springframework.http.HttpMethod
 import org.springframework.http.MediaType
 import org.springframework.stereotype.Repository
 import org.springframework.web.client.RestTemplate
 import org.springframework.web.client.postForEntity
-import kotlin.reflect.KClass
-import org.springframework.http.HttpMethod
 import org.springframework.web.util.UriComponentsBuilder
-import org.springframework.http.RequestEntity.post
+import kotlin.reflect.KClass
 
 
 @Repository

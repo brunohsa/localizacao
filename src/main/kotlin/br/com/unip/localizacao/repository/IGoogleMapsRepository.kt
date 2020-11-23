@@ -1,8 +1,8 @@
 package br.com.unip.localizacao.repository
 
-import br.com.unip.localizacao.dto.EnderecoDTO
+import br.com.unip.localizacao.dto.CoordenadasDTO
 
 interface IGoogleMapsRepository {
 
-    fun buscarEnderecoPorCep(cep: String): EnderecoDTO
+    fun buscarCoordenadasPorCep(cep: String): CoordenadasDTO?
 }

@@ -2,10 +2,19 @@ package br.com.unip.localizacao.exception
 
 enum class ECodigoErro {
 
-    CAD000, CAD001, CAD002, CAD003, CAD004, CAD005, CAD006, CAD007, CAD008, CAD009, CAD0010,
-    CAD011, CAD012, CAD013, CAD014, CAD015,
+    ERRO_INESPERADO("000"),
+    TOKEN_EXPIRADO("001"),
+    TOKEN_INVALIDO("002"),
+    CONEXAO_RECUSADA("003"),
+    ACESSO_NEGADO("004"),
+    CAMPO_OBRIGATORIO("005"),
+    PARAMETRO_INVALIDO("006"),
+    CAMPO_DEVE_SER_NUMERICO("007"),
+    CEP_INVALIDO("008");
 
-    CAD016,
+    val codigo: String
 
-    CAD017
+    constructor(codigo: String) {
+        this.codigo = codigo
+    }
 }
