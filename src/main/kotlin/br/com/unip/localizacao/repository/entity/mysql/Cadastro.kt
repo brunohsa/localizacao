@@ -1,10 +1,6 @@
 package br.com.unip.localizacao.repository.entity.mysql
 
-import javax.persistence.Column
-import javax.persistence.Entity
-import javax.persistence.GeneratedValue
-import javax.persistence.GenerationType
-import javax.persistence.Id
+import javax.persistence.*
 
 @Entity
 class Cadastro {
@@ -14,7 +10,14 @@ class Cadastro {
     var id: Long? = null
 
     @Column
-    val uuid : String
+    val uuid: String
+
+    @Column
+    var nota: Double? = null
+
+    @Column
+    @Enumerated(EnumType.STRING)
+    var categoria: ECategoria? = null
 
     constructor(uuid: String) {
         this.uuid = uuid

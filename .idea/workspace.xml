@@ -4,17 +4,19 @@
     <list default="true" id="62957da6-6f97-4837-957e-7592a152d7fa" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/kotlin/br/com/unip/localizacao/repository/FornecedorRepository.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/br/com/unip/localizacao/repository/FornecedorRepository.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/br/com/unip/localizacao/repository/HorarioFuncionamentoRepository.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/br/com/unip/localizacao/repository/HorarioFuncionamentoRepository.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/kotlin/br/com/unip/localizacao/repository/IFornecedorRepository.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/br/com/unip/localizacao/repository/IFornecedorRepository.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/br/com/unip/localizacao/repository/entity/mysql/Cadastro.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/br/com/unip/localizacao/repository/entity/mysql/Cadastro.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/kotlin/br/com/unip/localizacao/service/FornecedorService.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/br/com/unip/localizacao/service/FornecedorService.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/kotlin/br/com/unip/localizacao/service/IFornecedorService.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/br/com/unip/localizacao/service/IFornecedorService.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/kotlin/br/com/unip/localizacao/webservice/FornecedorWS.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/br/com/unip/localizacao/webservice/FornecedorWS.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/br/com/unip/localizacao/repository/FornecedorRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/br/com/unip/localizacao/repository/FornecedorRepository.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/br/com/unip/localizacao/repository/HorarioFuncionamentoRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/br/com/unip/localizacao/repository/HorarioFuncionamentoRepository.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/br/com/unip/localizacao/repository/IFornecedorRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/br/com/unip/localizacao/repository/IFornecedorRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/br/com/unip/localizacao/repository/entity/mysql/Cadastro.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/br/com/unip/localizacao/repository/entity/mysql/Cadastro.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/br/com/unip/localizacao/service/FornecedorService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/br/com/unip/localizacao/service/FornecedorService.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/br/com/unip/localizacao/service/IFornecedorService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/br/com/unip/localizacao/service/IFornecedorService.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/br/com/unip/localizacao/webservice/FornecedorWS.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/br/com/unip/localizacao/webservice/FornecedorWS.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/localizacao-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/localizacao-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/localizacao-1.0-SNAPSHOT.jar.original" beforeDir="false" afterPath="$PROJECT_DIR$/target/localizacao-1.0-SNAPSHOT.jar.original" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -34,10 +36,10 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyKotlinDeclarationDialog.RECENTS_KEY">
-      <recent name="br.com.unip.localizacao.webservice.model.response" />
-      <recent name="br.com.unip.localizacao.dto" />
-      <recent name="br.com.unip.localizacao.repository" />
       <recent name="br.com.unip.localizacao.repository.entity.mysql" />
+      <recent name="br.com.unip.localizacao.dto" />
+      <recent name="br.com.unip.localizacao.webservice.model.response" />
+      <recent name="br.com.unip.localizacao.repository" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\workspace\localizacao\src\main\kotlin\br\com\unip\localizacao\repository\entity\mysql" />

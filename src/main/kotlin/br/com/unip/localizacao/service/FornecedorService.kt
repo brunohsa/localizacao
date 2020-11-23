@@ -1,6 +1,7 @@
 package br.com.unip.localizacao.service
 
 import br.com.unip.localizacao.dto.CoordenadasDTO
+import br.com.unip.localizacao.dto.FiltroFornecedorDTO
 import br.com.unip.localizacao.dto.FornecedorEncontradoDTO
 import br.com.unip.localizacao.dto.FuncionamentoDTO
 import br.com.unip.localizacao.repository.IFornecedorRepository
@@ -11,8 +12,8 @@ import org.springframework.stereotype.Service
 class FornecedorService(val fornecedorRepository: IFornecedorRepository,
                         val funcionamentoRepository: IHorarioFuncionamentoRepository) : IFornecedorService {
 
-    override fun buscar(coordenadas: CoordenadasDTO): List<FornecedorEncontradoDTO> {
-        var fornecedores = fornecedorRepository.buscar(coordenadas)
+    override fun buscar(filtro: FiltroFornecedorDTO): List<FornecedorEncontradoDTO> {
+        var fornecedores = fornecedorRepository.buscar(filtro)
         fornecedores.forEach { f -> f.funcionamentoDTO = this.getHorarioDeFuncionamento(f.cadastroUUID) }
 
         return fornecedores
