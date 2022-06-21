@@ -18,7 +18,7 @@
         <kotlin.version>1.3.50</kotlin.version>
         <junit.version>4.12</junit.version>
         <spring-boot-version>2.1.6.RELEASE</spring-boot-version>
-        <mysql-connector>8.0.17</mysql-connector>
+        <mysql-connector>8.0.28</mysql-connector>
         <jaxb.version>2.3.0</jaxb.version>
         <liquibase.version>3.5.3</liquibase.version>
         <change.log.file>db.master.xml</change.log.file>
